@@ -66,3 +66,53 @@
     object-fit: contain;
     width: 16px;
 }
+
+.picker.snips-picker .snips-tag-search {
+    background: var(--fokus-control-background, #fff);
+    border: 1px solid var(--fokus-border, #bbb);
+    border-radius: var(--fokus-control-radius, 4px);
+    box-sizing: border-box;
+    color: var(--fokus-control-text, inherit);
+    display: block;
+    margin: 0 0 0.25em;
+    padding: 0.45em 0.6em;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.picker.snips-picker .snips-tag-status {
+    color: var(--fokus-muted, #666);
+    font-size: 0.9em;
+    padding: 0.35em 0.6em;
+}
+
+.picker.snips-picker .snips-tag-choice.is-selected {
+    background: var(--fokus-control-hover-background, #e8e8e8);
+}
+
+.picker.snips-picker .snips-tag-insert-selected {
+    margin-top: 0.25em;
+}
+
+.picker.snips-picker .snips-tag-heading,
+.picker.snips-picker .snips-snippets-heading {
+    align-items: center;
+    color: var(--fokus-muted, #666);
+    display: flex;
+    font-size: 0.9em;
+    font-weight: 600;
+    gap: 0.45em;
+    padding: 0.45em 0.6em;
+}
+
+.picker.snips-picker .snips-tag-heading img {
+    height: 16px;
+    width: 16px;
+}
+
+.picker.snips-picker .snips-section-divider {
+    border-bottom: 1px solid var(--fokus-border, #bbb);
+    margin: 0.35em 0;
+}

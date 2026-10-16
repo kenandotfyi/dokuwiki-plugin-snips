@@ -1,9 +1,19 @@
 <?php
 
 $lang['toolbar_title'] = 'Snips';
+$lang['tag_picker_heading'] = 'Existing tags';
+$lang['snippets_heading'] = 'Snippets';
+$lang['tag_search_placeholder'] = 'Search existing tags…';
+$lang['tag_picker_open'] = 'Open to load tags.';
+$lang['tag_loading'] = 'Loading tags…';
+$lang['tag_empty'] = 'No tags are available yet.';
+$lang['tag_no_matches'] = 'No matching tags.';
+$lang['tag_load_error'] = 'Could not load tags. Close and reopen the picker to retry.';
+$lang['tag_insert_syntax'] = 'Insert tag syntax…';
+$lang['tag_insert_selected'] = 'Insert selected tags';
 $lang['menu'] = 'Snips';
 $lang['heading'] = 'Toolbar snippets';
-$lang['intro'] = 'Create reusable insert and wrap snippets for the editor toolbar. Enabled snippets appear in the Snips toolbar menu.';
+$lang['intro'] = 'Create reusable insert and wrap snippets for the editor toolbar. Enabled snippets appear in the Snips menu, alongside the searchable tag picker when the Tag plugin is installed.';
 $lang['storage_note'] = 'Snippets are stored separately from the plugin in conf/plugin/snips/snippets.json.';
 $lang['snippet'] = 'Snippet';
 $lang['enabled'] = 'Enabled';

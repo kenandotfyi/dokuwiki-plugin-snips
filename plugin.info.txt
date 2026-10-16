@@ -3,4 +3,4 @@ author  Kenan Akinci
 email   hey@kenan.fyi
 date    2026-10-09
 name    Snips
-desc    Manage reusable text snippets and icons for the DokuWiki editor toolbar.
+desc    Manage editor snippets and provide a searchable existing-tag picker in the Snips dropdown.
